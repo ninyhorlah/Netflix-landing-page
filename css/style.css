@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/bg-image-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    box-shadow: inset 0px 0px 150px 60px rgba(0, 0, 0, 2);
+    border-bottom: 8px solid rgb(51, 51, 51);
+}
+
+
+.sub-container ul {
+    list-style: none;
+    display: flex;
+}
+
+img {
+    margin-left: 20%;
+}
+
+.sign-in {
+    margin: auto;
+    text-align: right;
+    margin-left: 75%;
+    background-color: rgb(231, 5, 5);
+    padding: 7px 18px;
+    border-radius: 3px;
+}
+
+.sign-in a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.unlimited {
+    margin-left: 5%;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 8% 5% 1% 5%;
+}
+
+.unlimited p {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.input ul{
+    margin: auto;
+    display: flex;
+    margin-left: 25%;
+    list-style: none;
+}
+
+input {
+    padding: 15px 250px 15px 5px;
+    font-size: 20px;
+}
+
+
+.see-prices a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.see-prices {
+    background-color: rgb(224, 4, 4);
+    padding: 10px 20px 10px 25px;
+}
+
+.fa-angle-right {
+    padding: 5px 0 0 10px;
+    
+}
+
+.ready {
+    text-align: center;
+    margin-left: 5%;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.second-container ul {
+    text-decoration: none;
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 8px solid rgb(51, 51, 51);
+}
+
+.enjoy {
+    color: white;
+    padding: 150px 0 150px 100px;
+    
+}
+
+.enjoy h2 {
+    font-size: 45px;
+}
+
+.enjoy p {
+    font-size: 28px;
+}
+
+.image {
+    position: absolute;
+    margin: -310px 100px 80px 10px;
+    
+}
+
+.img1 video{
+    position: relative;
+    margin: 80px 140px 0 195px;
+}
+
+.third-container {
+    border-bottom: 8px solid rgb(51, 51, 51);
+}
+
+.third-container  ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    
+}
+
+.strange {
+    border: 2px solid rgb(70, 69, 69);
+    background-color: black;
+    width: fit-content;
+    border-radius: 10px;
+    position: absolute;
+    margin: -120px -5px -100px 130px;
+    padding: 8px;
+}
+
+.stranger {
+    padding: 8px 60px 0 30px;
+   
+}
+
+.stranger p {
+    color: rgb(71, 71, 253);
+}
+
+.download h2 {
+    font-size: 45px;
+}
+
+.download p {
+    font-size: 25px;
+}
+
+.download {
+    padding: 140px 130px 130px 130px;
+}
+
+.img2 {
+    margin: 30px 0 0 35px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.vid-img {
+    position: relative;
+    margin: 80px 50px 0 200px;
+}
+
+.vid2 video{
+    position: relative;
+    margin: 30px 100px 50px 120px;
+}
+
+.tv2 {
+    margin: -300px 100px 120px 0px;
+    position: absolute;
+}
+
+.question {
+    text-align: center;
+    color: white;
+    border-bottom: 8px solid rgb(51, 51, 51);
+}
+
+.question h2{
+    font-size: 50px;
+    color: white;
+    padding: 50px;
+}
+
+.download-icon {
+    padding-right: 10px;
+}
+
+.questions-asked ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 25px;
+    list-style: none;
+    background-color: #303030;
+    margin: 0 250px 10px 250px;
+    padding: 20px ;
+}
+
+.fa-plus {
+    margin-left: 230px;
+    float: right;
+}
+
+.first-list {
+    margin-right: 50px;
+    text-align: left;
+    display: block;
+}
+
+.questions-asked a{
+    text-decoration: none;
+    color: white;
+}
+
+.second-input {
+    margin: 70px 0;
+}
+
+.links {
+    margin: 60px 250px 10px 230px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.links p {
+    padding-bottom: 25px;
+}
+
+.links li {
+    padding: 5px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(150, 148, 148);
+}
+
+.sub-links {
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.netflix {
+    color: rgb(150, 148, 148);
+    margin: 30px 0 0 5px;
+    font-weight: lighter;
+    font-size: 14px;
+}
