@@ -1,267 +1,450 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .container {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/bg-image-.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 100px;
-    box-shadow: inset 0px 0px 150px 60px rgba(0, 0, 0, 2);
-    border-bottom: 8px solid rgb(51, 51, 51);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg-image-.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0px 0px 150px 60px rgba(0, 0, 0, 2);
+  border-bottom: 8px solid rgb(51, 51, 51);
 }
-
 
 .sub-container ul {
-    list-style: none;
-    display: flex;
-}
-
-img {
-    margin-left: 20%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .sign-in {
-    margin: auto;
-    text-align: right;
-    margin-left: 75%;
-    background-color: rgb(231, 5, 5);
-    padding: 7px 18px;
-    border-radius: 3px;
+  margin-top: 30px;
+  background-color: rgb(231, 5, 5);
+  padding: 7px 18px;
+  border-radius: 3px;
+  width: fit-content;
+  height: fit-content;
 }
 
 .sign-in a {
-    color: white;
-    text-decoration: none;
-    
+  color: white;
+  text-decoration: none;
+}
+
+.sec-one {
+  height: 100vh;
 }
 
 .unlimited {
-    margin-left: 5%;
-    color: white;
-    text-align: center;
-    font-size: 45px;
-    padding: 8% 5% 1% 5%;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 7rem 0 0 0;
 }
 
 .unlimited p {
-    font-size: 30px;
-    padding: 10px;
+  font-size: 20px;
+  padding: 10px;
 }
 
-.input ul{
-    margin: auto;
-    display: flex;
-    margin-left: 25%;
-    list-style: none;
+.input ul {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 input {
-    padding: 15px 250px 15px 5px;
-    font-size: 20px;
+  padding: 10px 250px 12px 5px;
+  font-size: 20px;
 }
 
-
 .see-prices a {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: block;
 }
 
 .see-prices {
-    background-color: rgb(224, 4, 4);
-    padding: 10px 20px 10px 25px;
+  background-color: rgb(224, 4, 4);
+  padding: 13px 20px 13px 25px;
+  height: fit-content;
 }
 
 .fa-angle-right {
-    padding: 5px 0 0 10px;
-    
+  padding: 5px 0 0 10px;
 }
 
 .ready {
-    text-align: center;
-    margin-left: 5%;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
 }
-
+.second-container {
+  border-bottom: 8px solid rgb(51, 51, 51);
+}
 .second-container ul {
-    text-decoration: none;
-    display: flex;
-    padding-bottom: 20px;
-    border-bottom: 8px solid rgb(51, 51, 51);
+  max-width: 1100px;
+  margin: auto;
+  text-decoration: none;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 20px;
+  height: 70vh;
 }
 
 .enjoy {
-    color: white;
-    padding: 150px 0 150px 100px;
-    
+  color: white;
+  padding: 1.5rem;
+  margin: auto 10px;
+}
+
+.img1 {
+  margin: auto 10px;
+  padding-left: 2rem;
 }
 
 .enjoy h2 {
-    font-size: 45px;
+  font-size: 35px;
 }
 
 .enjoy p {
-    font-size: 28px;
+  font-size: 25px;
 }
 
-.image {
-    position: absolute;
-    margin: -310px 100px 80px 10px;
-    
+.img1 .image {
+  position: absolute;
+  /* right: 140px;
+  top: 640px; */
+  margin: -315px 10px 400px -72px;
 }
 
-.img1 video{
-    position: relative;
-    margin: 80px 140px 0 195px;
+.img1 video {
+  position: relative;
 }
 
 .third-container {
-    border-bottom: 8px solid rgb(51, 51, 51);
+  height: 70vh;
+  border-bottom: 8px solid rgb(51, 51, 51);
 }
 
-.third-container  ul {
-    display: flex;
-    color: white;
-    list-style: none;
-    
+.third {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
+.third-container ul {
+  color: white;
+  list-style: none;
+}
+.strange-wrapper ul {
+  display: flex;
+}
 .strange {
-    border: 2px solid rgb(70, 69, 69);
-    background-color: black;
-    width: fit-content;
-    border-radius: 10px;
-    position: absolute;
-    margin: -120px -5px -100px 130px;
-    padding: 8px;
+  border: 2px solid rgb(70, 69, 69);
+  background-color: black;
+  width: fit-content;
+  border-radius: 10px;
+  position: absolute;
+  margin: -120px -5px -100px 130px;
+  padding: 8px;
 }
 
 .stranger {
-    padding: 8px 60px 0 30px;
-   
+  padding: 8px 60px 0 30px;
 }
 
 .stranger p {
-    color: rgb(71, 71, 253);
+  color: rgb(71, 71, 253);
 }
 
 .download h2 {
-    font-size: 45px;
+  font-size: 35px;
 }
 
 .download p {
-    font-size: 25px;
+  font-size: 22px;
 }
 
 .download {
-    padding: 140px 130px 130px 130px;
+  margin: auto 10px;
 }
 
 .img2 {
-    margin: 30px 0 0 35px;
-    position: relative;
-    top: 0;
-    left: 0;
+  margin: 10px 0 0 35px;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 .vid-img {
-    position: relative;
-    margin: 80px 50px 0 200px;
+  position: relative;
+  margin: auto 10px;
 }
 
-.vid2 video{
-    position: relative;
-    margin: 30px 100px 50px 120px;
+.vid2 video {
+  position: relative;
+  margin: 30px 100px 50px 120px;
 }
 
 .tv2 {
-    margin: -300px 100px 120px 0px;
-    position: absolute;
+  margin: -300px 100px 120px 0px;
+  position: absolute;
 }
 
 .question {
-    text-align: center;
-    color: white;
-    border-bottom: 8px solid rgb(51, 51, 51);
+  text-align: center;
+  color: white;
+  border-bottom: 8px solid rgb(51, 51, 51);
 }
 
-.question h2{
-    font-size: 50px;
-    color: white;
-    padding: 50px;
+.question h2 {
+  font-size: 35px;
+  color: white;
+  padding: 50px;
 }
 
 .download-icon {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
-.questions-asked ul{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-size: 25px;
-    list-style: none;
-    background-color: #303030;
-    margin: 0 250px 10px 250px;
-    padding: 20px ;
-}
-
-.fa-plus {
-    margin-left: 230px;
-    float: right;
+.questions-asked ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+  margin: 5px auto;
+  font-size: 20px;
+  list-style: none;
+  background-color: #303030;
+  padding: 15px;
 }
 
 .first-list {
-    margin-right: 50px;
-    text-align: left;
-    display: block;
+  margin-right: 50px;
+  text-align: left;
+  display: block;
 }
 
-.questions-asked a{
-    text-decoration: none;
-    color: white;
+.questions-asked a {
+  text-decoration: none;
+  color: white;
 }
 
 .second-input {
-    margin: 70px 0;
+  margin: 50px 0;
 }
 
 .links {
-    margin: 60px 250px 10px 230px;
-    font-weight: lighter;
-    font-size: 14px;
+  margin: 50px auto;
+  max-width: 1100px;
+  padding-left: 20px;
+  font-weight: lighter;
+  font-size: 14px;
 }
 
 .links p {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .links li {
-    padding: 5px;
+  padding: 5px;
 }
 
 .links a {
-    text-decoration: none;
-    color: rgb(150, 148, 148);
+  text-decoration: none;
+  color: rgb(150, 148, 148);
 }
 
 .sub-links {
-    text-align: left;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .netflix {
-    color: rgb(150, 148, 148);
-    margin: 30px 0 0 5px;
-    font-weight: lighter;
+  color: rgb(150, 148, 148);
+  margin: 30px 0 0 5px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 903px) {
+  .unlimited {
+    font-size: 30px;
+  }
+  .unlimited p {
+    font-size: 8px;
+  }
+
+  input,
+  .see-prices a {
+    font-size: 15px;
+  }
+
+  .ready {
     font-size: 14px;
+  }
+
+  .second-container ul {
+    display: block;
+    padding: 30px 60px;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+  }
+  .img1 {
+    padding-top: 75px;
+  }
+
+  .third {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px 60px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .third-container {
+    height: 100vh;
+  }
+
+  .img1-vid video {
+    width: 300px;
+  }
+
+  .image img {
+    width: 400px;
+    margin: 85px 0 300px 210px;
+  }
+
+  .tv2 {
+    margin: -250px 100px 120px -203px;
+    position: absolute;
+    width: 450px;
+  }
+
+  .vid2 video {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .image img {
+    margin: 85px 0 300px 170px;
+  }
+  .img2 {
+    width: 430px;
+    height: 280px;
+  }
+
+  .strange {
+    padding: 5px;
+    margin: -100px 10px -100px 120px;
+  }
+
+  .strange img {
+    width: 30px;
+  }
+
+  .stranger {
+    font-size: 14px;
+    padding: 4px 50px 2px 20px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .image img {
+    margin: 85px 0 300px 110px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .image img {
+    margin: 85px 0 300px 120px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .sub-container {
+    padding: 10px 20px;
+  }
+
+  .unlimited {
+    font-size: 25px;
+  }
+  .unlimited p {
+    font-size: 10px;
+  }
+
+  .download h2,
+  .enjoy h2,
+  .question h2 {
+    font-size: 30px;
+  }
+
+  .download p,
+  .enjoy p,
+  .question p {
+    font-size: 18px;
+  }
+
+  .sub-container img {
+    width: 150px;
+  }
+  .input ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .see-prices {
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .img1-vid video {
+    width: 202px;
+  }
+
+  .image img {
+    width: 300px;
+    margin: 145px 0 300px 130px;
+  }
+
+  .tv2 {
+    margin: -200px 100px 120px -170px;
+    width: 350px;
+  }
+
+  .vid2 video {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .image img {
+    margin: 145px 0 300px 95px;
+  }
+
+  .tv2 {
+    margin: -200px 100px 120px -140px;
+    width: 350px;
+  }
 }
