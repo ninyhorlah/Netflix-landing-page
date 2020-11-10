@@ -454,11 +454,34 @@ input {
   body {
     overflow-x: hidden;
   }
+  .img1-vid video {
+    width: 152px;
+  }
   .image img {
-    margin: 145px 0 300px 65px;
+    margin: 185px 0 300px 105px;
+    width: 230px;
   }
 
   .tv2 {
-    margin: -200px 100px 120px -120px;
+    margin: -170px 100px 120px -120px;
+    width: 300px;
   }
+  .vid2 video {
+    width: 170px;
+  }
+  .strange {
+    padding: 5px;
+    margin: -80px 10px -100px 65px;
+  }
+  .img2 {
+    width: 330px;
+    height: 180px;
+  }
+
+  /* .stranger {
+    font-size: 14px;
+    padding: 4px 50px 2px 20px;
+  } */
 }
+
+/* @media screen and (max-width: 480px); */
